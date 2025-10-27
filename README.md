@@ -1,4 +1,23 @@
-## Hi there 👋
+# Hi, I'm Anna 👋
+## 🎯 Будущий Data Scientist & Fullstack Developer
+
+### ⚡ Быстрый старт
+```python
+class AboutMe:
+    def __init__(self):
+        self.name = "Анна"
+        self.education = "Прикладная математика, 2 курс"
+        self.focus = ["Data Science", "Web Development", "Linear Algebra"]
+    
+    def skills(self):
+        return {
+            "Languages": ["Python", "C++", "C", "JavaScript"],
+            "Web": ["HTML", "CSS", "Figma"],
+            "Data Science": ["Pandas", "PCA", "Data Visualization"],
+            "Tools": ["Git", "Codewars"]
+        }
+
+anna = AboutMe()
 
 <!--
 **Anywns/Anywns** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
